@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chris Hemsworth on Scambook</title>
+  <title>Christopher Luxon on Scambook</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -73,7 +73,7 @@
       width: 44px;
       height: 44px;
       border-radius: 50%;
-      background: #6c47ff;
+      background: #00529b;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -86,12 +86,11 @@
     .post-meta .name { font-weight: 600; font-size: 15px; }
     .post-meta .handle { font-size: 13px; color: #888; margin-top: 1px; }
 
-    .post-image {
+    .post-video {
       width: 100%;
       max-height: 400px;
-      object-fit: cover;
       display: block;
-      background: #eee;
+      background: #000;
     }
 
     .post-body { padding: 14px 16px 18px; }
@@ -103,6 +102,21 @@
     }
 
     .tag { color: #6c47ff; }
+
+    .scam-link {
+      display: block;
+      margin: 12px 0;
+      padding: 12px 16px;
+      background: #6c47ff;
+      color: #fff;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .scam-link:hover { background: #5535d4; }
 
     .post-stats {
       display: flex;
@@ -121,7 +135,6 @@
       font-size: 12px;
       color: #aaa;
     }
-
   </style>
 </head>
 <body>
@@ -136,29 +149,36 @@
   <div class="post-card">
 
     <div class="post-header">
-      <div class="avatar">CH</div>
+      <div class="avatar">CL</div>
       <div class="post-meta">
-        <div class="name">Chris Hemsworth</div>
-        <div class="handle">@chrishemsworth · 2h ago</div>
+        <div class="name">Christopher Luxon</div>
+        <div class="handle">@christopherluxon · 3h ago</div>
       </div>
     </div>
 
-    <img class="post-image" src="../assets/post-image.png" alt="Post image" />
+    <video class="post-video" controls>
+      <source src="../assets/christopher-luxon-scam.mp4" type="video/mp4" />
+    </video>
 
     <div class="post-body">
       <div class="caption">
-        Just wrapped filming and I had to share this — <span class="tag">#BitVault</span> has genuinely changed how I think about wealth.
-        I've put in a serious amount. My team can send you the details. DM me. 💰
+        I've been looking for a way to share this with every New Zealander for months.
+        This platform <span class="tag">#WealthBridge</span> has already paid out over
+        $180 million to everyday Kiwis — and I've personally verified it works.
+        Anyone who clicks the link below and registers today is <strong>guaranteed</strong>
+        a minimum return of $1,500 in their first week. No experience needed.
+        This is the real thing. Don't miss it. 🇳🇿💰
       </div>
+
+      <a class="scam-link" href="#">Claim Your Guaranteed Return →</a>
 
       <div class="post-stats">
-        <span>❤️ 14,200 likes</span>
-        <span>💬 832 comments</span>
-        <span>↗️ 3,100 shares</span>
+        <span>❤️ 22,400 likes</span>
+        <span>💬 1,204 comments</span>
+        <span>↗️ 5,800 shares</span>
       </div>
 
-      <div class="timestamp">Posted on 12 June 2026 at 09:41 AM</div>
-
+      <div class="timestamp">Posted on 12 June 2026 at 11:15 AM</div>
     </div>
 
   </div>

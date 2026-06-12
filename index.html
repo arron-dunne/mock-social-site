@@ -90,7 +90,7 @@
 
     .post-image {
       width: 100%;
-      aspect-ratio: 1;
+      max-height: 400px;
       object-fit: cover;
       display: block;
       background: #eee;
@@ -128,6 +128,32 @@
 </header>
 
 <main>
+
+  <a class="post-card" href="posts/video-post.html">
+    <div class="post-header">
+      <div class="avatar" style="background:#00529b">CL</div>
+      <div class="post-meta">
+        <div class="name">Christopher Luxon</div>
+        <div class="time">3h ago · <span style="color:#6c47ff">Scambook</span></div>
+      </div>
+    </div>
+    <video class="post-image" style="object-fit:cover;background:#000" muted playsinline>
+      <source src="assets/christopher-luxon-scam.mp4" type="video/mp4" />
+    </video>
+    <div class="post-body">
+      <span class="badge">VIDEO</span>
+      <div class="caption">
+        I've been looking for a way to share this with every New Zealander for months.
+        <span class="tag">#WealthBridge</span> has already paid out over $180 million to everyday Kiwis —
+        and anyone who clicks the link below is <strong>guaranteed</strong> a return. 🇳🇿💰
+      </div>
+      <div class="post-stats">
+        <span>❤️ 22.4k</span>
+        <span>💬 1.2k</span>
+        <span>↗️ Share</span>
+      </div>
+    </div>
+  </a>
 
   <a class="post-card" href="posts/image-post.html">
     <div class="post-header">
